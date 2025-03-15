@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Скупка велосипедов</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        background-image: url('https://img.freepik.com/free-vector/abstract-artistic-paint-splatter-texture_1409-2113.jpg?t=st=1742041094~exp=1742044694~hmac=4714604933062c6b15b993f1aedd702324334a291a06047fc6fbfd9e9c95c2bd&w=1800');
+
+
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        list-style-type: none;
+      }
+      .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    </style>
+
+  </head>
+  <body class=" text-gray-800">
+    <div class="container mx-auto p-8">
+      <header class="text-center mb-10">
+        <h1 class="text-5xl font-bold">Скупка велосипедов</h1>
+        <p class="text-xl mt-3">Выкупаем ваши велосипеды по хорошей цене❗️</p>
+      </header>
+
+      <section class="bg-white p-8 rounded-lg shadow-lg mb-10">
+        <h2 class="text-3xl font-semibold mb-5 text-gray-700">
+          Как мы работаем:
+        </h2>
+        <ol class="list-decimal list-inside space-y-3">
+          <li class="flex gap-[10px] items-center">
+            <i
+              class="fa-solid fa-newspaper text-5xl"
+              style="color: #1a5fb4"
+            ></i>
+            <h3 class="font-semibold text-lg">Заполняете форму на сайте</h3>
+          </li class="flex gap-[10px] items-center" >
+          <li class="flex gap-[10px] items-center">
+            <i class="fa-solid fa-check text-5xl text-green-600"></i>
+            <h3 class="font-semibold text-lg">Мы оцениваем велосипед</h3>
+          </li>
+          <li class="flex gap-[10px] items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L550.2 352l41.8 0c26.5 0 48-21.5 48-48l0-128c0-26.5-21.5-48-48-48l-76 0-4 0-.7 0-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48-80 0c-26.5 0-48 21.5-48 48L0 304c0 26.5 21.5 48 48 48l108.2 0 91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123z"/></svg>
+            <h3 class="font-semibold text-lg">
+              После согласования цены мы приезжаем и выкупаем велосипед
+            </h3>
+          </li>
+        </ol>
+      </section>
+
+
+      <section class="bg-white p-8 rounded-lg shadow-lg mb-10">
+        <h2 class="text-3xl font-semibold mb-5 text-gray-700">
+          Преимущества работы с нами:
+        </h2>
+        <ul class="list-disc list-inside space-y-3">
+          <li class="flex gap-[10px]">
+            <i
+              class="fa-duotone fa-solid fa-money-bill text-5xl text-green-600"
+            ></i>
+            <h3 class="font-semibold text-lg">
+              Быстро избавляетесь от велосипеда и получаете деньги
+            </h3>
+          </li>
+          <li class="flex gap-[10px]">
+            <i class="fa-solid fa-camera text-black text-5xl"></i>
+            <h3 class="font-semibold text-lg text-3xl">
+              От Вас требуется лишь сфотографировать велосипед, все остальное
+              команда берет на себя
+            </h3>
+          </li>
+
+          <li class="flex gap-[10px]">
+            <i class="fas fa-bicycle text-green-600 text-3xl"></i>
+            <div>
+              <h3 class="font-semibold text-lg">
+                Выкупаем велосипеды в любом ценовом сегменте
+              </h3>
+            </div>
+          </li>
+
+          <li class="flex gap-[10px]">
+            <!-- <i class="fa-sharp fa-solid fa-cart-shopping fa-2xl"></i> -->
+            <!-- <i class="fa-solid fa-cart-shopping text-black"></i> -->
+            <!-- <i class="fa-solid fa-cart-plus"></i> -->
+            <!-- <i class="fa-regular fa-cart-plus"></i> -->
+            <i
+              class="fa-regular fa-cart-plus fa-2xl text-5xl"
+              style="color: #26a269"
+            ></i>
+            <h3 class="font-semibold text-lg">
+              Также можете обращаться по покупке имеющихся у нас велосипедов
+            </h3>
+          </li>
+          <li class="flex gap-[10px]">
+            <i class="fas fa-exchange-alt text-yellow-500 text-3xl"></i>
+            <h3 class="font-semibold text-lg">
+              Помимо этого предоставляем услуги трейд-ин
+            </h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bg-white p-8 rounded-lg shadow-lg mb-10">
+        <h2 class="text-3xl font-semibold mb-5 text-gray-700">Наши услуги:</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="flex items-start space-x-3">
+            <i class="fas fa-bicycle text-green-600 text-3xl"></i>
+            <div>
+              <h3 class="font-semibold text-lg">
+                Скупка новых и подержанных велосипедов
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <i class="fas fa-tags text-blue-600 text-3xl"></i>
+            <div>
+              <h3 class="font-semibold text-lg">
+                Оценка стоимости велосипеда на месте
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <i class="fas fa-exchange-alt text-yellow-500 text-3xl"></i>
+            <div>
+              <h3 class="font-semibold text-lg">
+                Трейд-ин для обмена старого велосипеда на новый
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <i class="fas fa-cogs text-purple-600 text-3xl"></i>
+            <div>
+              <h3 class="font-semibold text-lg">
+                Подбор и сборка индивидуального велосипеда под заказ
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <i class="fas fa-wrench text-red-600 text-3xl"></i>
+            <div>
+              <h3 class="font-semibold text-lg">
+                Настройка и ремонт велосипедов любой сложности
+              </h3>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <i class="fas fa-info-circle text-teal-600 text-3xl"></i>
+            <div>
+              <h3 class="font-semibold text-lg">
+                Консультации по выбору аксессуаров и комплектующих
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="bg-white p-8 rounded-lg shadow-lg mb-10">
+        <h2 class="text-3xl font-semibold mb-5 text-gray-700">
+          Загрузите информацию о вашем велосипеде:
+        </h2>
+        <form>
+          <div class="mb-5">
+            <label class="block text-sm font-medium mb-2" for="bikeName"
+              >Модель велосипеда:</label
+            >
+            <input
+              class="border border-gray-300 rounded-lg p-3 w-full"
+              type="text"
+              id="bikeName"
+              placeholder="Введите название"
+              required
+            />
+          </div>
+          <div class="mb-5">
+            <label class="block text-sm font-medium mb-2" for="bikeDescription"
+              >Описание (если есть неисправности, то укажите их):</label
+            >
+            <textarea
+              class="border bМоorder-gray-300 rounded-lg p-3 w-full"
+              id="bikeDescription"
+              rows="5"
+              placeholder="Введите описание"
+              required
+            ></textarea>
+          </div>
+          <div class="mb-5">
+            
+          </div>
+          <div class="mb-5">
+            <label class="block text-sm font-medium mb-2" for="bikeImages"
+              >Загрузите фотографии:</label
+            >
+            <input
+              class="border border-gray-300 rounded-lg p-3 w-full"
+              type="file"
+              id="bikeImages"
+              multiple
+              required
+            />
+          </div>
+          <button
+            class="bg-green-600 text-white font-semibold py-3 px-6 rounded-lg hover:bg-green-700 transition duration-200"
+            type="submit"
+          >
+            Отправить информацию
+          </button>
+        </form>
+      </section>
+
+      <section class="bg-white p-8 rounded-lg shadow-lg mb-10">
+        <header class="font-bold text-3xl mb-[10px]">Наши работы:</header>
+        <div class="flex gap-[10px] overflow-x-auto hide-scrollbar">
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/1.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/2.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/3.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/4.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/5.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/6.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/7.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/8.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/9.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+          <div class="w-[300px] h-[300px] bg-gray-100 rounded-[30px] flex-shrink-0">
+            <img src="img/10.png" class="w-full h-full object-cover rounded-[30px]" alt="велосипед">
+          </div>
+        </div>
+      </section>
+
+      <footer class="text-center mt-10">
+        <h3 class="text-xl font-semibold text-gray-700">Контакты:</h3>
+        <p class="mt-2 text-gray-600">Телефон: +7 (123) 456-78-90</p>
+        <p class="text-gray-600">Email: example@example.com</p>
+        <p class="text-gray-600">Адрес: г. Москва, ул. Примерная, д. 1</p>
+      </footer>
+    </div>
+
+  </body>
+</html>
