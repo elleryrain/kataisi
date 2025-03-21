@@ -3,6 +3,6 @@ User-agent: *
 
 # Разрешаем индексацию всего сайта
 Allow: /
-
+Disallow: /bike
 # Указываем путь к карте сайта (обязательно создайте её!)
 Sitemap: https://kataisi.ru/sitemap.xml
