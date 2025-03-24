@@ -49,9 +49,11 @@ async function main() {
       const bikeInfo: {
         model: string | undefined;
         desc: string | undefined;
+        phone: string | undefined;
       } = {
         model: undefined,
         desc: undefined,
+        phone: undefined,
       };
       for await (const field of parts) {
         console.log(field.type);
@@ -63,12 +65,15 @@ async function main() {
           if (field.fieldname === "model")
             bikeInfo.model = field.value as string;
           if (field.fieldname === "desc") bikeInfo.desc = field.value as string;
+          if (field.fieldname === "phone")
+            bikeInfo.phone = field.value as string;
         }
       }
       await bot.sendBikeInfo(
         images,
         bikeInfo.model || "пусто",
-        bikeInfo.desc || "пусто"
+        bikeInfo.desc || "пусто",
+        bikeInfo.phone || "пусто"
       );
       return reply.send({ success: true });
     } catch (error) {

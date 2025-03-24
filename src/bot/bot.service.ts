@@ -22,7 +22,8 @@ export class TelegramBot {
   public async sendBikeInfo(
     imageBuffers: Buffer[],
     model: string,
-    description: string
+    description: string,
+    phone: string
   ): Promise<void> {
     if (!this.chatId) {
       throw new Error(
@@ -36,7 +37,7 @@ export class TelegramBot {
       media: { source: buffer }, // Буфер изображения
       caption:
         index === 0
-          ? `**Модель**: ${model}\n**Описание**: ${description}`
+          ? `**Номер телефна**: ${phone}\n**Модель**: ${model}\n**Описание**: ${description} \n`
           : undefined,
       parse_mode: "Markdown", // Для форматирования текста
     }));
